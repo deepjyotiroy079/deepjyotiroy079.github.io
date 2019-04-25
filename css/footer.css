@@ -8,7 +8,8 @@ footer{
     padding-bottom: 40px;
 }
 .centerLinks {
-    margin-left: 550px;
+    margin: 10px auto;
+    text-align: center;
 }
 .centerLinks li a img{  
     vertical-align: middle;
@@ -30,7 +31,8 @@ footer{
         font-size: 20px;
     }
     .centerLinks {
-        margin-left: 300px;
+        margin: 10px auto;
+        text-align: center;
     }
     .darkWindow {
         padding-top: 120px;
@@ -45,7 +47,8 @@ footer{
         font-size: 18px;
     }
     .centerLinks {
-        margin-left: 190px;
+        margin: 10px auto;
+        text-align: center;
     }
     .darkWindow {
         padding-top: 100px;
@@ -60,7 +63,24 @@ footer{
         font-size: 14px;
     }
     .centerLinks {
-       margin-left: 130px;
+        margin: 10px auto;
+        text-align: center;
+    }
+    .darkWindow {
+        padding-top: 80px;
+    }
+    .centerLinks li a img{  
+        padding: 2px;
+        height: 35px;
+    }
+}
+@media(max-width: 320px) {
+    .footerText {
+        font-size: 13px;
+    }
+    .centerLinks {
+        margin: 10px auto;
+        text-align: center;
     }
     .darkWindow {
         padding-top: 80px;
