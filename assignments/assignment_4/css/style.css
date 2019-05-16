@@ -1,0 +1,18 @@
+/* heading 1 that has arial font with color green, h2 and h3 with font monotype conceva color red and font size 28 */
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+}
+h2, h3 {
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    color: red;
+    font-size: 28px;
+}
+
+.first {
+    color: blue;
+}   
+.second {
+    color: green;
+}
