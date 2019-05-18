@@ -19,7 +19,6 @@ body {
     background-position: center center;
 }
 @media only screen and (min-width: 992px)  {
-
 }
 @media only screen and (min-width: 768px)  {
 
@@ -53,5 +52,10 @@ body {
     }
     i  {
         padding-bottom: 12px;
+    }
+    .fab {
+        color: #fff;
+        font-size: 150%;
+        padding-right: 5px;
     }
 }
