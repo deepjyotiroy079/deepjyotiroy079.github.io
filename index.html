@@ -1,220 +1,502 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-		<link rel="stylesheet" href="./css/style.css">
-		<title>Deepjyoti Roy</title>
-	</head>
-	<body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Deepjyoti Roy</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg py-2 sticky-top navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand font-weight-bold" href="#">Deepjyoti Roy</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav text-center py-2 ml-auto font-weight-light">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#connect">Connect</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-		<header>
-			<div class="navbar navbar-light navbar-expand-md bg-light fixed-top">
-				<div class="container">
-					<a href="" class="navbar-brand text-uppercase">Deepjyoti Roy</a>
-					<button class="navbar-toggler bg-light" data-toggle="collapse" data-target="#navbar">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse justify-content-md-end" id="navbar">
-						<ul class="navbar-nav text-center text-uppercase">
-							
-							<li class="nav-items px-2">
-								<a href="#about" class="nav-link">About</a>
-							</li>
-							<li class="nav-items px-2">
-								<a href="#education" class="nav-link">Education</a>
-							</li>
-							<li class="nav-items px-2">
-								<a href="#projects" class="nav-link">Project</a>
-							</li>
-							<li class="nav-items px-2">
-								<a href="#connect" class="nav-link">Connect</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</header>
+    <div class="jumbotron bg-white text-center jumbotron-fluid">
+        <div class="container">
+            <h2 class="font-weight-bold">Deepjyoti Roy</h2>
+            <p class="lead font-weight-light">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+    </div>
 
-		<section class="bg-light pt-5" id="home">
-			<div class="container pt-5">
-				<div class="row align-items-center content-1">
-					<div class="col-md-7 col-lg-6 order-2 order-md-1">
-						<h5 class="font-weight-light">Hi There, I'm</h5>
-						<h1 class="display-3 font-weight-bold name">Deepjyoti Roy</h1>
-						<a href="" class="button-1 btn btn-outline-info font-weight-light px-5 text-uppercase">Hire Me</a>
-					</div>
-				</div>
-			</div>
-		</section>
+    <div id="about" class="container text-center py-4">
+        <div class="section-title text-center center">
+            <h2 class="text-center">About Me </h2>
+            <hr>
+        </div>
+        <div class="row my-4">   
+            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4">
+                <img src="./images/profile.jpg" class="profile img-fluid" alt="">
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8 text-left">
+               <p class="lead font-weight-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam obcaecati, unde minima aperiam repudiandae ab aspernatur ipsa dicta voluptas quam magni, possimus saepe sed eveniet cupiditate! Quam totam adipisci eligendi?</p>
+               <div class="container text-center py-4" style="font-size: 150%; letter-spacing: 5px;">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-snapchat-ghost"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="skills" class="container text-center py-4">
+        <div class="section-title text-center center">
+            <h2 class="text-center">Skills & Abilities </h2>
+            <p>"Every skill you acquire doubles your odds of success" <br> ― Scott Adams</p>
+            <hr>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-5 col-sm-11 col-xs-11">
+                <h4 class="text-center">Concepts</h4><br>
+                <div class="mr15">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <p> OOPs </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <div class="progress progress-striped active ">
+                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="74" style="width: 74%;" aria-valuenow="74"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <p> Data Structures </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <div class="progress progress-striped active ">
+                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="70" style="width: 70%;" aria-valuenow="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <p> Algorithms </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <div class="progress progress-striped active ">
+                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="56" style="width: 56%;" aria-valuenow="56"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <p> DBMS </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <div class="progress progress-striped active ">
+                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="55" style="width: 55%;" aria-valuenow="55"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <p> Blockchain </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <div class="progress progress-striped active ">
+                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="40" style="width: 40%;" aria-valuenow="40"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <h4 class="text-center">Server Side Platforms</h4><br>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <p> Java(J2EE) </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <div class="progress progress-striped active ">
+                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="55" style="width: 55%;" aria-valuenow="55"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    
+                    <h4 class="text-center">Mobile App Development</h4><br>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <p> Android </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <div class="progress progress-striped active ">
+                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="45" style="width: 45%;" aria-valuenow="45"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <h4 class="text-center">Blockchain</h4><br>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <p> Ethereum </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <div class="progress progress-striped active ">
+                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="40" style="width: 40%;" aria-valuenow="40"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <p>
+                            <strong>Contract Language</strong>
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <p> Solidity </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <div class="progress progress-striped active ">
+                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="30" style="width: 30%;" aria-valuenow="30"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <p>
+                            <strong>Web framework</strong>
+                        </p>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <p> Web3 </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <div class="progress progress-striped active ">
+                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="40" style="width: 40%;" aria-valuenow="40"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <p> Truffle </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <div class="progress progress-striped active ">
+                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="35" style="width: 35%;" aria-valuenow="35"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+            <div class="col-md-5 col-sm-11 col-xs-11 wow fadeInDown" data-wow-delay="100ms" style="visibility: visible; animation-delay: 100ms; animation-name: fadeInDown;">
+                <h4 class="text-center">
+                    Programming Languages
+                </h4><br>
+                <div class="mr15 ml15">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <p> C </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <div class="progress progress-striped active ">
+                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="75" style="width: 75%;" aria-valuenow="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <p> C++ </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <div class="progress progress-striped active ">
+                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="75" style="width: 75%;" aria-valuenow="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <p> Java </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <div class="progress progress-striped active ">
+                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="75" style="width: 75%;" aria-valuenow="75"></div>
+                            </div>
+                        </div>
+                    </div>
 
-		<section class="py-5" id="about">
-			<div class="container py-5">
-				<div class="row mb-5">
-					<div class="col text-center">
-						<h1 class="display-4 title">Who am I</h1>
-					</div>
-				</div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <p> Python </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <div class="progress progress-striped active ">
+                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="25" style="width: 25%;" aria-valuenow="25"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <p>
+                            <strong>Web</strong>
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <p> HTML5 </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <div class="progress progress-striped active ">
+                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="75" style="width: 75%;" aria-valuenow="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <p> CSS3 </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <div class="progress progress-striped active ">
+                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="55" style="width: 55%;" aria-valuenow="55"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <p> JavaScript </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <div class="progress progress-striped active ">
+                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="65" style="width: 65%;" aria-valuenow="65"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <p> PHP </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <div class="progress progress-striped active ">
+                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="30" style="width: 30%;" aria-valuenow="30"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <h4 class="text-center">Frontend Frameworks</h4>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <p> Bootstrap 4 </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <div class="progress progress-striped active ">
+                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="70" style="width: 70%;" aria-valuenow="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <h4 class="text-center">Database Management Systems
+                    </h4><br>
+                    <div class="text-center">
+                        <p>
+                            <strong>RDBMS</strong>
+                        </p>
+                    </div>
 
-				<div class="row text-muted">
-					<div class="col-lg-6">
-						<p class="lead">
-							I am a third year student pursuing a Bachelor's degree in Information Technology with a focus on Full Stack Development. 
-							I love to learn new technologies and to see how things work. 
-							I tend to code things from scratch. I have always sought out opportunities and challenges that are meaningful to me. 
-							I'm quite confident, naturally curious, and constantly improving my skills.
-						</p>
-					</div>
-					<div class="col-lg-6">
-						<h5>Web Development</h5>
-						<div class="progress mb-4">
-							<div class="progress-bar bg-info" style="width: 70%;">
-								70%
-							</div>
-						</div>
-						<h5>Android Development</h5>
-						<div class="progress mb-4">
-							<div class="progress-bar bg-info" style="width: 65%;">
-								65%
-							</div>
-						</div>
-						<h5>C++</h5>
-						<div class="progress mb-4">
-							<div class="progress-bar bg-info" style="width: 70%;">
-								70%
-							</div>
-						</div>
-						<h5>JAVA</h5>
-						<div class="progress mb-4">
-							<div class="progress-bar bg-info" style="width: 65%;">
-								65%
-							</div>
-						</div>
-						<h5>Python</h5>
-						<div class="progress mb-4">
-							<div class="progress-bar bg-info" style="width: 55%;">
-								55%
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <p> MySQL </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <div class="progress progress-striped active ">
+                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="60" style="width: 60%;" aria-valuenow="60"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <h4 class="text-center">Version Control System</h4><br>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <p> Git/GitHub </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 ">
+                            <div class="progress progress-striped active ">
+                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="50" style="width: 50%;" aria-valuenow="50"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="experience" class="container py-4">
+        <div class="section-title text-center center">
+            <h2 class="text-center">Experiences </h2>
+            <p>“Failure is the condiment that gives success its flavor.”
+                <br>― Truman Capote
+                </p>
+            <hr>
+        </div>
+        <div class="row wow fadeInDown " data-wow-delay="200ms">
+            <div class="col-md-2 col-sm-11 col-xs-11 ">
+                <h4 class="text-center">
+                    Education
+                </h4>
+            </div>
+            <div class="col-md-9 col-sm-11 col-xs-11 ">
+                <br>
+                <div class="row">
+                    <div class="col-md-8 col-sm-6 col-xs-6 ">
+                        <p>
+                            <strong>Bachelor's of Engineering - Information Technology</strong>
+                            <br>R.G.P.V</p>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-6 ">
+                        <p>2016-2020</p>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-8 col-sm-6 col-xs-6 ">
+                        <p>
+                            <strong>High School- Maths &amp; Science (70%)</strong>
+                            <br> Central Board of Secondary Education</p>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-6 ">
+                        <p>2014-2016</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row wow fadeInDown " data-wow-delay="200ms">
+            <div class="col-md-2 col-sm-11 col-xs-11 ">
+                <h4 class="text-center">
+                    Certification
+                </h4>
+            </div>
+            <div class="col-md-9 col-sm-11 col-xs-11 ">
+                <br>
+                <div class="row">
+                    <div class="col-md-8 col-sm-6 col-xs-6 ">
+                        <p>
+                            <strong>C++</strong>
+                            <br>Cisco Netacad</p>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-6 ">
+                        <p>2016</p>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>     
+    </div>
+    
 
-		<section class="py-5 bg-white" id="education">
-			<div class="container py-5">
-				<div class="row mb-5">
-					<div class="col text-center">
-						<h1 class="display-4 title">My Education</h1>
-						<p class="lead text-muted">
-							“Given the choice between the experience of pain and nothing, I would choose pain.” <br>
-							― William Faulkner ―
-						</p>
-					</div>
-				</div>
-				<div class="row text-center">
-					<div class="col-md-6 col-lg-3">
-						<div class="mb-5 m-md-0">
-							<i class="fas fa-school text-info fa-5x"></i>
-							<h5 class="font-weight-bold">High School<br>(Maths & Science)</h5>
-							<p class="my3 text-muted lead">
-								2014-2016
-							</p>
-						</div>
-					</div>
-					<div class="col-md-6 col-lg-3">
-						<div class="mb-5 m-md-0">
-							<i class="fas fa-graduation-cap fa-5x text-info"></i>
-							<h5 class="font-weight-bold">Bachelor's of Engineering <br>(Information Technology)</h5>
-							<p class="my3 text-muted lead">
-								2016-2020
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+    <div id="projects" class="container py-4">
+        <div class="section-title text-center center">
+            <h2 class="text-center">Projects </h2>
+            <p>“It does not matter how slowly you go as long as you do not stop”
+                <br> ― Confucius</p>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button> 
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>  
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div> 
+    </div>
 
-		<section class="py-5 bg-light" id="blog">
-			<div class="container py-5">
-				<div class="row mb-5">
-					<div class="col text-center">
-						<h1 class="display-4 title">My Projects</h1>
-						<p class="lead text-muted">
-							"When something is important enough, you do it even if the odds are not in your favor."<br> ― Elon Musk ―
-						</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-4 mb-5 mb-lg-0">
-						<div class="card">
-							<img src="./images/project1.PNG" class="img-fluid" alt="">
-							<div class="card-body">
-								<div class="text-muted">
-									<h6 class="font-weight-bold">Decentralised Voting System&nbsp;&nbsp;|&nbsp;&nbsp;17/11/2018</h6>
-									<p class="lead">
-										A Decentralised voting system created on Ethereum Blockchain platform. Build using Truffle Framework, Ganache and solidity
-									</p>
-								</div>
-								<a href="" class="text-info font-weight-bold">Read More</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 mb-5 mb-lg-0">
-						<div class="card">
-							<img src="./images/project2.png" class="img-fluid" alt="">
-							<div class="card-body">
-								<div class="text-muted">
-									<h6 class="font-weight-bold">Personal Portfolio&nbsp;&nbsp;|&nbsp;&nbsp;01/10/2019</h6>
-									<p class="lead">
-										Just a hobby project using bootstrap UI.
-									</p>
-								</div>
-								<a href="" class="text-info font-weight-bold">Read More</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 mb-5 mb-lg-0">
-						<div class="card">
-							<img src="./images/project3.jpg" class="img-fluid" alt="">
-							<div class="card-body">
-								<div class="text-muted">
-									<h6 class="font-weight-bold">Hospital Bed Management System | 01/10/2019</h6>
-									<p class="lead">
-										A problem statement from Smart India Hackathon 2019 - Software Edition
-									</p>
-								</div>
-								<a href="" class="text-info font-weight-bold">Read More</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<footer class="py-5 bg-dark">
-			<div class="container">
-				<div class="row">
-					<div class="col text-center">
-						<a href="https://www.linkedin.com/in/deepjyoti-roy-b02b6a160/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-						<a href="https://github.com/deepjyotiroy079" target="_blank"><i class="fab fa-github"></i></a>
-						<a href="https://www.reddit.com/user/de_coder_079" target="_blank"><i class="fab fa-reddit-alien"></i></a>
-						<a href="https://www.snapchat.com/add/deepjyotiroy079" target="_blank"><i class="fab fa-snapchat-ghost"></i></a>
-						<a href="https://www.instagram.com/de_coder_079/" target="_blank"><i class="fab fa-instagram"></i></a>
-						<a href="https://twitter.com/de_coder_079" target="_blank"><i class="fab fa-twitter"></i></a>
-						<p class="lead mt-3 mb-0 text-muted">
-							Copyright 2019 &copy
-						</p>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	</body>
+    <div id="connect" class="container py-4">
+            <div class="section-title text-center center">
+                <h2 class="text-center">Let's Get In Touch! </h2>
+                <p>"Alone we can do so little; together we can do so much." <br>– Helen Keller</p>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+                    <i class="fas fa-phone fa-2x mb-3 text-muted"></i>
+                    <div><a href="tel:+918989753843" class="d-block">+91 8989753843</a></div>
+                </div>
+                <div class="col-lg-4 mr-auto text-center">
+                    <i class="fas fa-envelope fa-2x mb-3 text-muted"></i>
+                    <!-- Make sure to change the email address in anchor text AND the link below! -->
+                    <a class="d-block" href="mailto:deepjyotiroy079@gmail.com">deepjyotiroy079@gmail.com</a>
+                </div>
+            </div>
+    </div>
+
+    <div id="footer" class="text-center">
+        <div class="container">
+            <p> 2019 © Deepjyoti Roy.</p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
 </html>
