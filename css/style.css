@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+body {
+    font-family: 'Raleway', sans-serif;
+}
 .profile {
     width: 150px;
     border-radius: 500px;
@@ -6,6 +10,13 @@
 hr {
    border: 3px solid #4286f4;
    width: 20%;
+}
+i {
+    color: #333;
+}
+i:hover{
+    color: #4286f4;
+    font-size: 120%;
 }
 @media (min-width: 576px) {
     hr {
@@ -20,5 +31,5 @@ hr {
 @media (min-width: 992px) {
     hr {
         width: 20%;
-     }
+    }
 }
