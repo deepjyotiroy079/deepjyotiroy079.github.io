@@ -21,6 +21,15 @@ i {
 i:hover{
     color: #4286f4;
 }
+#footer {
+    background-color: #111;
+    color: #fff;
+    display: block;
+    padding: 15px 0;
+}
+#copy {
+    margin: 15px auto;
+}
 @media (min-width: 576px) {
     hr {
         width: 70%;
