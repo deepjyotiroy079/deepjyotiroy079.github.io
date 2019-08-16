@@ -3,30 +3,30 @@
     min-height: 56px;
     background-color: #fff;
   }
-  
+
   #mainNav .navbar-toggler {
     font-size: 80%;
     padding: 0.75rem;
     color: #64a19d;
     border: 1px solid #64a19d;
   }
-  
+
   #mainNav .navbar-toggler:focus {
     outline: none;
   }
-  
+
   #mainNav .navbar-brand {
     color: #161616;
     font-weight: 700;
     padding: .9rem 0;
   }
-  
+
   #mainNav .navbar-nav .nav-item:hover {
     color: #fff;
     outline: none;
     background-color: transparent;
   }
-  
+
   #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
     outline: none;
     background-color: transparent;
@@ -80,39 +80,39 @@
       border-bottom: 0.25rem solid #64a19d;
     }
   }
-  
+
   .masthead {
     position: relative;
     width: 100%;
     height: auto;
     min-height: 35rem;
     padding: 15rem 0;
-    background-color: #111;
+    background-image: url('../images/masthead-background.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
   }
-  
+
   .masthead h1 {
     font-size: 1.5rem;
     line-height: 1.5rem;
     letter-spacing: 0.8rem;
     color: #fff;
   }
-  
+
   .masthead h2 {
     max-width: 20rem;
     font-size: 1rem;
   }
-  
+
   @media (min-width: 768px) {
     .masthead h1 {
       font-size: 4rem;
       line-height: 4rem;
     }
   }
-  
+
   @media (min-width: 992px) {
     .masthead {
       height: 100vh;
@@ -128,7 +128,7 @@
       font-size: 1.25rem;
     }
   }
-  
+
   .btn {
     -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
     box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
@@ -139,21 +139,20 @@
     letter-spacing: .15rem;
     border: 0;
   }
-  
+
   .btn-primary {
     background-color: #333;
   }
-  
+
   .btn-primary:hover {
     background-color: #4f837f;
   }
-  
+
   .btn-primary:focus {
     background-color: #4f837f;
     color: white;
   }
-  
+
   .btn-primary:active {
     background-color: #467370 !important;
   }
-  
