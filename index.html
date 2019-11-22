@@ -1,602 +1,667 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
     <meta name="author" content="Deepjyoti Roy" />
-	<meta name="description" content="I am Deepjyoti Roy. This is my personal resume website">
+    <meta name="description" content="I am Deepjyoti Roy. This is my personal resume website">
     <meta name="og:email" content="deepjyotiroy079@gmail.com" />
     <meta name="og:phone_number" content="+91 8989753843" />
     <meta name="og:country-name" content="IN" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-
     <meta name="og:type" content="Portfolio" />
     <meta name="og:url" content="https://deepjyotiroy079.github.io/" />
     <meta name="og:image" content="https://deepjyotiroy079.github.io/images/profile1.jpeg" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <meta name="og:site_name" content="Deepjyoti Roy" />
-
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/navstyle.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Deepjyoti Roy</title>
-</head>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body id="page-top">
-    <div id="back-to-top"></div>
-    <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-        <a class="navbar-brand " href="#page-top">Deepjyoti Roy</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link text-uppercase" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-uppercase" href="#skills">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-uppercase" href="#experience">Experiences</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-uppercase" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-uppercase" href="#connect">Contact</a>
-                </li>
+    <link rel="shortcut icon" href="./male-technologist.png">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <!-- Lightbox-->
+    <link rel="stylesheet" href="vendor/lightbox2/css/lightbox.min.css">
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="favicon.png">
+    <!-- Animate on scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <!-- Hero Section-->
+    <section id="intro" style="background-image: url(img/bg1.jpg);" class="hero bg-cover">
+      <div class="overlay"></div>
+      <div class="content h-100 d-flex align-items-center">
+        <div class="container text-left text-white">
+          <p class="headings-font-family text-uppercase lead">Welcome to my portfolio</p>
+          <h1 class="text-uppercase hero-text text-left text-white">I am<span class="font-weight-bold d-block">Deepjyoti Roy</span></h1>
+          <!-- <p class="headings-font-family text-uppercase lead">And this is a theme for your personal or company website brought to you by <br><a href="#" class="text-white no-anchor-style">bootstrapious.Com</a></p> -->
+        </div>
+      </div><a href="#about" class="scroll-btn link-scroll"><i class="fas fa-angle-double-down"></i></a>
+    </section>
+    <!-- Navbar-->
+    <!-- navbar-->
+    <header class="header sticky-top">
+      <nav class="navbar navbar-expand-lg bg-white border-bottom py-0">
+        <div class="container py-3">
+            <a href="#" class="navbar-brand py-1">
+                <!-- <img src="img/logo.png" alt="" class="img-fluid"> -->
+                <div class="name_banner font-weight-bold">Deepjyoti Roy</div>
+            </a>
+          <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fas fa-bars"></span></button>
+          <div id="navbarSupportedContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto px-3">
+              <li class="nav-item active"><a href="#intro" class="nav-link text-uppercase link-scroll">Home </a></li>
+              <li class="nav-item"><a href="#about" class="nav-link text-uppercase link-scroll">About</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link text-uppercase link-scroll">Skills &amp; Abilities</a></li>
+              <li class="nav-item"><a href="#experience" class="nav-link text-uppercase link-scroll">Experience</a></li>
+              <!-- <li class="nav-item"><a href="#text" class="nav-link text-uppercase link-scroll">Text</a></li> -->
+              <li class="nav-item"><a href="#project" class="nav-link text-uppercase link-scroll">Projects</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link text-uppercase link-scroll">Contact</a></li>
             </ul>
+          </div>
         </div>
-    </div>
-    </nav>
-    <!-- Header -->
-    <header class="masthead">
-    <div class="container d-flex h-100 align-items-center">
-        <div class="mx-auto text-center">
-            <h1 class="mx-auto my-5">Deepjyoti Roy</h1>
-            <div class="down-arrow bounce">
-                <a href="#about" class="scroll-to">
-                    <i class="fas fa-angle-down" style="color: #fff;"></i>
-                </a>
-            </div>
-        </div>
-    </div>
+      </nav>
     </header>
-
-    <section id="about" class="container text-center py-5">
-        <div class="section-title text-center center">
-            <h2 class="text-center">About Me </h2>
-            <hr>
+    <!-- About Section-->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-6"  data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+            <header class="text-center">
+              <h2 class="lined text-uppercase">About me</h2>
+              <p class="lead"><q>I'm not trying to be different. To me, I'm just being myself.</q></p>
+            </header>
+            <p>
+                Strong in <strong>design</strong> and <strong>integration</strong> with <strong>intuitive problem-solving skills</strong>. Passionate about <strong>implementing</strong> and <strong>launching new projects</strong>. Ability to <strong>translate business requirements</strong> into technical solutions. </p>
+          </div>
+          <div class="text-center col-lg-6" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out"><img src="img/profile.jpg" alt="..." class="profile_pic img-fluid"></div>
         </div>
-        <div class="row my-4">
-            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4">
-                <img src="./images/profile1.jpeg" class="profile img-fluid" alt="">
+        <div class="row" data-aos="fade-down" data-aos-delay="150" data-aos-duration="1000">
+            <div class="col-lg-6">
+                <ul class="mb-0 list-inline text-center">
+                    <li class="list-inline-item"><a href="https://www.facebook.com/deepjyoti.roy.169" class="social-link social-link-facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="list-inline-item"><a href="https://twitter.com/de_coder_079" class="social-link social-link-twitter"><i class="fab fa-twitter"></i> </a></li>
+                    <li class="list-inline-item"><a href="https://github.com/deepjyotiroy079" class="social-link social-link-github"><i class="fab fa-github-alt"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.instagram.com/de_coder_079/" class="social-link social-link-instagram"><i class="fab fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="mailto:deepjyotiroy079@gmail.com" class="social-link social-link-email"><i class="fas fa-envelope"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/deepjyoti-roy-079/" class="social-link social-link-linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
             </div>
-            <div class="col-sm-12 col-md-8 col-lg-8 text-left">
-               <p class="lead font-weight-light">
-                  Motivated individual with strong work ethic and ability to work independently. Strong organizational and team collaboration skills. Looking to utilize valuable skill set in a new challenging position.
-               </p>
-               <div class="container text-center py-4" style="font-size: 150%; letter-spacing: 5px;">
-                    <a href="https://www.facebook.com/deepjyoti.roy.169" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://github.com/deepjyotiroy079" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://twitter.com/de_coder_079" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.linkedin.com/in/deepjyoti-roy-079/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://www.instagram.com/de_coder_079/" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.snapchat.com/add/deepjyotiroy079" target="_blank"><i class="fab fa-snapchat-ghost"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="skills" class="container text-center py-5">
-        <div class="section-title text-center center">
-            <h2 class="text-center">Skills & Abilities </h2>
-            <p>"Every skill you acquire doubles your odds of success" <br> ― Scott Adams</p>
-            <hr>
-        </div>
-
-        <div class="row">
-            <div class="col-md-5 col-sm-11 col-xs-11">
-                <h4 class="text-center">Concepts</h4><br>
-                <div class="mr15">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <p> OOPs </p>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <div class="progress progress-striped active ">
-                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="74" style="width: 74%;" aria-valuenow="74"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <p> Data Structures </p>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <div class="progress progress-striped active ">
-                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="70" style="width: 70%;" aria-valuenow="70"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <p> Algorithms </p>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <div class="progress progress-striped active ">
-                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="56" style="width: 56%;" aria-valuenow="56"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <p> DBMS </p>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <div class="progress progress-striped active ">
-                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="55" style="width: 55%;" aria-valuenow="55"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <p> Blockchain </p>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <div class="progress progress-striped active ">
-                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="40" style="width: 40%;" aria-valuenow="40"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <h4 class="text-center">Server Side Platforms</h4><br>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <p> Java(J2EE) </p>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <div class="progress progress-striped active ">
-                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="55" style="width: 55%;" aria-valuenow="55"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-
-                    <h4 class="text-center">Mobile App Development</h4><br>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <p> Android </p>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <div class="progress progress-striped active ">
-                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="45" style="width: 45%;" aria-valuenow="45"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <h4 class="text-center">Blockchain</h4><br>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <p> Ethereum </p>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <div class="progress progress-striped active ">
-                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="40" style="width: 40%;" aria-valuenow="40"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="text-center">
-                        <p>
-                            <strong>Contract Language</strong>
-                        </p>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <p> Solidity </p>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <div class="progress progress-striped active ">
-                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="30" style="width: 30%;" aria-valuenow="30"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="text-center">
-                        <p>
-                            <strong>Web framework</strong>
-                        </p>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <p> Web3 </p>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <div class="progress progress-striped active ">
-                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="40" style="width: 40%;" aria-valuenow="40"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <p> Truffle </p>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <div class="progress progress-striped active ">
-                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="35" style="width: 35%;" aria-valuenow="35"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                </div>
-            </div>
-            <div class="col-md-5 col-sm-11 col-xs-11 wow fadeInDown" data-wow-delay="100ms" style="visibility: visible; animation-delay: 100ms; animation-name: fadeInDown;">
-                <h4 class="text-center">
-                    Programming Languages
-                </h4><br>
-                <div class="mr15 ml15">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <p> C </p>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <div class="progress progress-striped active ">
-                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="75" style="width: 75%;" aria-valuenow="75"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <p> C++ </p>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <div class="progress progress-striped active ">
-                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="75" style="width: 75%;" aria-valuenow="75"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <p> Java </p>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <div class="progress progress-striped active ">
-                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="75" style="width: 75%;" aria-valuenow="75"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <p> Python </p>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <div class="progress progress-striped active ">
-                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="25" style="width: 25%;" aria-valuenow="25"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="text-center">
-                        <p>
-                            <strong>Web</strong>
-                        </p>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <p> HTML5 </p>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <div class="progress progress-striped active ">
-                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="75" style="width: 75%;" aria-valuenow="75"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <p> CSS3 </p>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <div class="progress progress-striped active ">
-                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="55" style="width: 55%;" aria-valuenow="55"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <p> JavaScript </p>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <div class="progress progress-striped active ">
-                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="65" style="width: 65%;" aria-valuenow="65"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <p> PHP </p>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <div class="progress progress-striped active ">
-                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="30" style="width: 30%;" aria-valuenow="30"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <div>
-                        <h4 class="text-center">Frontend Frameworks</h4>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <p> Bootstrap 4 </p>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <div class="progress progress-striped active ">
-                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="70" style="width: 70%;" aria-valuenow="70"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <h4 class="text-center">Database Management Systems
-                    </h4><br>
-                    <div class="text-center">
-                        <p>
-                            <strong>RDBMS</strong>
-                        </p>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <p> MySQL </p>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <div class="progress progress-striped active ">
-                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="60" style="width: 60%;" aria-valuenow="60"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <h4 class="text-center">Version Control System</h4><br>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <p> Git/GitHub </p>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6 ">
-                            <div class="progress progress-striped active ">
-                                <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="50" style="width: 50%;" aria-valuenow="50"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </div>  
+      </div>
     </section>
 
-    <section id="experience" class="container py-5">
-        <div class="section-title text-center center">
-            <h2 class="text-center">Experiences </h2>
-            <p>“Failure is the condiment that gives success its flavor.”
-                <br>― Truman Capote
-                </p>
-            <hr>
-        </div>
-        <div class="row wow fadeInDown " data-wow-delay="200ms">
-            <div class="col-md-2 col-sm-11 col-xs-11 ">
-                <h4 class="text-center">
-                    Education
-                </h4>
-            </div>
-            <div class="col-md-9 col-sm-11 col-xs-11 ">
-                <br>
-                <div class="row">
-                    <div class="col-md-8 col-sm-6 col-xs-6">
-                       <p>
-                            <strong>Bachelor's of Engineering - Information Technology</strong>
-                            <br>R.G.P.V</p>
-
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-6">
-                        <p>2016 - current</p>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-md-8 col-sm-6 col-xs-6">
-                        <p>
-                            <strong>High School- Maths &amp; Science (75.2%)</strong>
-                            <br> Central Board of Secondary Education</p>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-6">
-                        <p>2014-2016</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div class="row wow fadeInDown " data-wow-delay="200ms">
-            <div class="col-md-2 col-sm-11 col-xs-11">
-                <h4 class="text-center">
-                    Activities
-                </h4>
-            </div>
-            <div class="col-md-9 col-sm-11 col-xs-11">
-                <br>
-                <div class="row">
-                    <div class="col-md-8 col-sm-6 col-xs-6">
-                        <p>
-                            <strong>Campus Ambassador</strong>
-                            <br>Coding Blocks</p>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-6">
-                        <p>Apr 2019 - current</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="projects" class="container py-5">
-        <div class="section-title text-center center">
-            <h2 class="text-center">Projects </h2>
-            <p>“It does not matter how slowly you go as long as you do not stop”
-                <br> ― Confucius</p>
-            <hr>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm">
-                <img class="bd-placeholder-img card-img-top" src="./images/project1.PNG" width="100%" height="180" >
-                <div class="card-body">
-                  <p class="card-text">A Decentralized Voting App &nbsp;&nbsp;|&nbsp;&nbsp; Ethereum Blockchain</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#project_1" >Details</button>
-                        </div>
-
-                        <!-- Modal -->
-                        <div class="modal fade" id="project_1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLongTitle">A Decentralized Voting App</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    <div class="container">
-                                        <p>The project aims to provide security and reliability to the process of voting. Blockchains are infamous because of their decentralised nature as well as security. This voting system uses the concept of blockchain.</p>
-                                        <strong>Technology Stack : </strong>
-                                        <span>Ganache, Truffle, Metamask</span>
-                                    </div>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" src="./images/project2.png" width="100%" height="180" >
-                <div class="card-body">
-                  <p class="card-text">Personal Portfolio Website&nbsp;&nbsp;|&nbsp;&nbsp;Bootstrap UI</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#project_2">Details</button>
-                        </div>
-
-                        <!-- Modal -->
-                        <div class="modal fade" id="project_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLongTitle">Personal Portfolio Website</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    <div class="container">
-                                        <p>This is just a hobby project that I started last year. I am not a frontend guy and this project helped me to move out of my comfort zone.</p>
-                                        <strong>Technology Stack : </strong>
-                                        <span>Bootstrap 4, HTML 5, CSS 3</span>
-                                        <br>
-                                        <strong>Deployed on :  </strong>
-                                        <span><a href="https://deepjyotiroy079.github.io/">https://deepjyotiroy079.github.io/</a></span>
-                                    </div>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm">
-                <img class="bd-placeholder-img card-img-top" src="./images/project3.jpg" width="100%" height="180" >
-                <div class="card-body">
-                  <p class="card-text">Bed Availability in near by hospitals &nbsp;&nbsp;|&nbsp;&nbsp; Android Studio</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#project_3">Details</button>
-                    </div>
-
-                    <!-- Modal -->
-                    <div class="modal fade" id="project_3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered" role="document">
-                            <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLongTitle">Bed Availability in near by hospitals</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="container">
-                                    <p>This project was a problem statement in the Smart India Hackathon 2019 - Software Edition. The problem intended to solve the problem of bed management in hospitals. Our solution allowed patients to get information about the availability of beds in nearby hospitals which would be beneficial during a chaos situation. Further more we are looking forward to implement Machine Learning to find the length of stay of the patients.</p>
-                                    <strong>Technology Stack : </strong>
-                                    <span>Android Studio, PHP</span>
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="connect" class="container py-5">
-            <div class="section-title text-center center">
-                <h2 class="text-center">Let's Get In Touch! </h2>
-                <p>"Alone we can do so little; together we can do so much." <br>– Helen Keller</p>
-                <hr>
-            </div>
+    <section id="skills" class="text-center py-5 pb-0 bg-white">
+        <header class="text-center mb-5">
+            <h2 class="text-uppercase lined">Skills &amp; Abilities</h2>
+            <p>"Every skill you acquire doubles your odds of success"<br>
+                    ― Scott Adams</p>
+        </header>
+        <div class="container pb-0">
             <div class="row">
-                <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-                    <i class="fas fa-phone fa-2x mb-3 text-muted"></i>
-                    <div><a href="tel:+918989753843" class="d-block">+91 8989753843</a></div>
+                <div class="col-md-5 col-sm-11 col-xs-11" data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <h4 class="text-center">Concepts</h4><br>
+                    <div class="mr15">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                <p> OOPs </p>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <div class="progress progress-striped active ">
+                                    <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="74" style="width: 74%;" aria-valuenow="74"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <p> Data Structures </p>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <div class="progress progress-striped active ">
+                                    <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="70" style="width: 70%;" aria-valuenow="70"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <p> Algorithms </p>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <div class="progress progress-striped active ">
+                                    <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="56" style="width: 56%;" aria-valuenow="56"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <p> DBMS </p>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <div class="progress progress-striped active ">
+                                    <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="55" style="width: 55%;" aria-valuenow="55"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <p> Blockchain </p>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <div class="progress progress-striped active ">
+                                    <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="40" style="width: 40%;" aria-valuenow="40"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <h4 class="text-center">Server Side Platforms</h4><br>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <p> Java(J2EE) </p>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <div class="progress progress-striped active ">
+                                    <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="55" style="width: 55%;" aria-valuenow="55"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+    
+                        <h4 class="text-center">Mobile App Development</h4><br>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <p> Android </p>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <div class="progress progress-striped active ">
+                                    <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="45" style="width: 45%;" aria-valuenow="45"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <h4 class="text-center">Blockchain</h4><br>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <p> Ethereum </p>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <div class="progress progress-striped active ">
+                                    <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="40" style="width: 40%;" aria-valuenow="40"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <p>
+                                <strong>Contract Language</strong>
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <p> Solidity </p>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <div class="progress progress-striped active ">
+                                    <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="30" style="width: 30%;" aria-valuenow="30"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <p>
+                                <strong>Web framework</strong>
+                            </p>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <p> Web3 </p>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <div class="progress progress-striped active ">
+                                    <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="40" style="width: 40%;" aria-valuenow="40"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <p> Truffle </p>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <div class="progress progress-striped active ">
+                                    <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="35" style="width: 35%;" aria-valuenow="35"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
                 </div>
-                <div class="col-lg-4 mr-auto text-center">
-                    <i class="fas fa-envelope fa-2x mb-3 text-muted"></i>
-                    <!-- Make sure to change the email address in anchor text AND the link below! -->
-                    <a class="d-block" href="mailto:deepjyotiroy079@gmail.com">deepjyotiroy079@gmail.com</a>
+                <div class="col-md-5 col-sm-11 col-xs-11" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <h4 class="text-center">
+                        Programming Languages
+                    </h4><br>
+                    <div class="mr15 ml15">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <p> C </p>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <div class="progress progress-striped active ">
+                                    <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="75" style="width: 75%;" aria-valuenow="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <p> C++ </p>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <div class="progress progress-striped active ">
+                                    <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="75" style="width: 75%;" aria-valuenow="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <p> Java </p>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <div class="progress progress-striped active ">
+                                    <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="75" style="width: 75%;" aria-valuenow="75"></div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <p> Python </p>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <div class="progress progress-striped active ">
+                                    <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="25" style="width: 25%;" aria-valuenow="25"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <p>
+                                <strong>Web</strong>
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <p> HTML5 </p>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <div class="progress progress-striped active ">
+                                    <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="75" style="width: 75%;" aria-valuenow="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <p> CSS3 </p>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <div class="progress progress-striped active ">
+                                    <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="55" style="width: 55%;" aria-valuenow="55"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <p> JavaScript </p>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <div class="progress progress-striped active ">
+                                    <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="65" style="width: 65%;" aria-valuenow="65"></div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <p> PHP </p>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <div class="progress progress-striped active ">
+                                    <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="30" style="width: 30%;" aria-valuenow="30"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div>
+                            <h4 class="text-center">Frontend Frameworks</h4>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <p> Bootstrap 4 </p>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <div class="progress progress-striped active ">
+                                    <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="70" style="width: 70%;" aria-valuenow="70"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <h4 class="text-center">Database Management Systems
+                        </h4><br>
+                        <div class="text-center">
+                            <p>
+                                <strong>RDBMS</strong>
+                            </p>
+                        </div>
+    
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <p> MySQL </p>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <div class="progress progress-striped active ">
+                                    <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="60" style="width: 60%;" aria-valuenow="60"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <h4 class="text-center">Version Control System</h4><br>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <p> Git/GitHub </p>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 ">
+                                <div class="progress progress-striped active ">
+                                    <div class="progress progress-striped progress-bar progress-bar-info six-sec-ease-in-out " role="progressbar" data-transitiongoal="50" style="width: 50%;" aria-valuenow="50"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
-
-    <div id="footer" class="text-center">
-        <div class="container">
-            <p id="copy"> 2019 © Deepjyoti Roy.</p>
         </div>
-    </div>
+    </section>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="./js/script.js"></script>
-</body>
+    <!-- Portfolio Section-->
+    <section id="experience" class="pb-0">
+      <header class="text-center mb-5">
+        <h2 class="lined text-uppercase">Education &amp; Experience</h2>
+        <p class="lead"><q>Anyone who has never made a mistake has never tried anything new.</q></p>
+      </header>
+      <div class="container">
+                <div class="row" data-aos="fade-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <div class="col-md-2 col-sm-11 col-xs-11 ">
+                        <h4 class="text-center font-weight-bold">
+                            Education
+                        </h4>
+                    </div>
+                    <div class="col-md-9 col-sm-11 col-xs-11 ">
+                        <br>
+                        <div class="row">
+                            <div class="col-md-8 col-sm-6 col-xs-6">
+                                <p>
+                                    <strong>Bachelor's of Engineering - Information Technology</strong>
+                                    <br>R.G.P.V</p>
+        
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-6">
+                                <p>2016 - current</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-8 col-sm-6 col-xs-6">
+                                <p>
+                                    <strong>High School- Maths &amp; Science (75.2%)</strong>
+                                    <br> Central Board of Secondary Education</p>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-6">
+                                <p>2014-2016</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row" data-aos="fade-down" data-aos-offset="200" data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <div class="col-md-2 col-sm-11 col-xs-11">
+                        <h4 class="text-center font-weight-bold">
+                            Activities
+                        </h4>
+                    </div>
+                    <div class="col-md-9 col-sm-11 col-xs-11">
+                        <br>
+                        <div class="row">
+                            <div class="col-md-8 col-sm-6 col-xs-6">
+                                <p>
+                                    <strong>Campus Ambassador</strong>
+                                    <br>Coding Blocks</p>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-6">
+                                <p>Apr 2019 - current</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <br>
+                <div class="row" data-aos="fade-down" data-aos-offset="200" data-aos-delay="350" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <div class="col-md-2 col-sm-11 col-xs-11 ">
+                        <h4 class="text-center font-weight-bold">
+                            Career
+                        </h4>
+                    </div>
+                    <div class="col-md-9 col-sm-11 col-xs-11 ">
+                        <br>
+                        <div class="row">
+                            <div class="col-md-8 col-sm-6 col-xs-6">
+                                <p>
+                                    <strong>Graduate Engineering Trainee</strong>
+                                    <br>Hexaware Technologies</p>
+
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-6">
+                                <p>2019 - current</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br> -->
+      </div>
+    </section>
+    <!-- Text Section-->
+    <!-- Team Section-->
+    <section id="project">
+      <div class="container">
+        <header class="text-center mb-5">
+          <h2 class="text-uppercase lined">Projects</h2>
+          <p>"It does not matter how slowly you go as long as you do not stop" <br> ― Confucius</p>
+        </header>
+        <div class="row">
+                <div class="col-md-4" data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                  <div class="card mb-4 shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" src="img/project1.png" width="100%" height="180" >
+                    <div class="card-body">
+                      <p class="card-text font-weight-bold">A Decentralized Voting App &nbsp;&nbsp;|&nbsp;&nbsp; Ethereum Blockchain</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#project_1" >Details</button>
+                            </div>
+    
+                            <!-- Modal -->
+                            <div class="modal fade" id="project_1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title" id="exampleModalLongTitle">Decentralized Voting App</h3>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="container">
+                                            <p>The project aims to provide security and reliability to the process of voting. Blockchains are infamous because of their decentralised nature as well as security. This voting system uses the concept of blockchain.</p>
+                                            <strong>Technology Stack : </strong>
+                                            <span>Ganache, Truffle, Metamask</span>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                  <div class="card mb-4 shadow-sm">
+                        <img class="bd-placeholder-img card-img-top" src="img/project2.png" width="100%" height="180" >
+                    <div class="card-body">
+                      <p class="card-text font-weight-bold">Personal Portfolio Website&nbsp;&nbsp;|&nbsp;&nbsp;Bootstrap UI</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#project_2">Details</button>
+                            </div>
+    
+                            <!-- Modal -->
+                            <div class="modal fade" id="project_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title" id="exampleModalLongTitle">Personal Portfolio Website</h3>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="container">
+                                            <p>This is just a hobby project that I started last year. I am not a frontend guy and this project helped me to move out of my comfort zone.</p>
+                                            <strong>Technology Stack : </strong>
+                                            <span>Bootstrap 4, HTML 5, CSS 3</span>
+                                            <br>
+                                            <strong>Deployed on :  </strong>
+                                            <span><a href="https://deepjyotiroy079.github.io/">https://deepjyotiroy079.github.io/</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                  <div class="card mb-4 shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" src="img/project3.jpg" width="100%" height="180" >
+                    <div class="card-body">
+                      <p class="card-text font-weight-bold">Bed Availability in near by hospitals &nbsp;&nbsp;|&nbsp;&nbsp; Android Studio</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#project_3">Details</button>
+                        </div>
+    
+                        <!-- Modal -->
+                        <div class="modal fade" id="project_3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                <div class="modal-header">
+                                    <h3 class="modal-title" id="exampleModalLongTitle">Bed Availability in near by hospitals</h3>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="container">
+                                        <p>This project was a problem statement in the Smart India Hackathon 2019 - Software Edition. The problem intended to solve the problem of bed management in hospitals. Our solution allowed patients to get information about the availability of beds in nearby hospitals which would be beneficial during a chaos situation. Further more we are looking forward to implement Machine Learning to find the length of stay of the patients.</p>
+                                        <strong>Technology Stack : </strong>
+                                        <span>Android Studio, PHP</span>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+      </div>
+    </section>
+    <!-- Map-->
+    <!-- <section id="map" class="border-bottom border-top"></section> -->
+    <!-- Contact Section-->
+   <section id="contact" class="mb-4">
+      <div class="container">
+        <header class="text-center mb-5">
+          <h2 class="text-uppercase lined">Contact</h2>
+          <p>"Alone we can do so little; together we can do so much." <br> ― Helen Keller</p>
+        </header>
+        <div class="row">
+            <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0" data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <i class="fas fa-phone fa-2x mb-3 text-muted"></i>
+                <div><a href="tel:+918989753843" class="d-block">+91 8989753843</a></div>
+            </div>
+            <div class="col-lg-4 mr-auto text-center" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <i class="fas fa-envelope fa-2x mb-3 text-muted"></i>
+                <!-- Make sure to change the email address in anchor text AND the link below! -->
+                <a class="d-block" href="mailto:deepjyotiroy079@gmail.com">deepjyotiroy079@gmail.com</a>
+            </div>
+        </div>
+      </div>
+    </section>
+
+   <footer class="py-3 bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 text-center my-2">
+            <p class="mb-0 text-gray">&copy; 2019 Designed with <i class="fas fa-heart" style="color: red;"></i> by Deepjyoti Roy</p>
+          </div>
+          <div class="col-lg-6 text-lg-left">
+            <!-- <p class="mb-0 text-gray">&copy; 2019 Designed with <i class="fas fa-heart" style="color: red;"></i> by Deepjyoti Roy</p> -->
+                <ul class="mb-0 list-inline text-center">
+                    <li class="list-inline-item"><a href="https://www.facebook.com/deepjyoti.roy.169" class="social-link social-link-facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="list-inline-item"><a href="https://twitter.com/de_coder_079" class="social-link social-link-twitter"><i class="fab fa-twitter"></i> </a></li>
+                    <li class="list-inline-item"><a href="https://github.com/deepjyotiroy079" class="social-link social-link-github"><i class="fab fa-github-alt"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.instagram.com/de_coder_079/" class="social-link social-link-instagram"><i class="fab fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="mailto:deepjyotiroy079@gmail.com" class="social-link social-link-email"><i class="fas fa-envelope"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/deepjyoti-roy-079/" class="social-link social-link-linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -->
+  <!-- End -->
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/lightbox2/js/lightbox.min.js"></script>
+    <script src="vendor/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+    <script src="js/front.js"></script>
+    <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- Animate on scroll -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+  </body>
 </html>
