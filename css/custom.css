@@ -65,3 +65,7 @@ li.timeline-item::before {
     text-decoration: none;
     color: #000;
 }
+
+@media(mid-width: 360px) {
+    
+}
