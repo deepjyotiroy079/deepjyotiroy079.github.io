@@ -65,7 +65,21 @@ li.timeline-item::before {
     text-decoration: none;
     color: #000;
 }
-
-@media(mid-width: 360px) {
-    
+.bg_footer {
+    background-color: #333;
+}
+.stay_connected {
+    font-size: 150%;
+}
+.footer_icon {
+    font-size: 150%;
+    color: #fff;
+    padding: 10px;
+}
+.footer_link {
+    text-decoration: none;
+    color: #fff;
+}
+.footer_link:hover{
+    text-decoration: none;
 }
