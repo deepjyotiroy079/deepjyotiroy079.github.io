@@ -11,13 +11,98 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-  }
+}
 
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
     .bd-placeholder-img-lg {
-      font-size: 3.5rem;
+        font-size: 3.5rem;
     }
-  }
+}
+/* 
+* ===========================
+* DARK MODE 
+* ==========================*/
+
+:root {
+    --title-color: #333;
+    --body-color: #696969;
+    --background-color: #fff;
+    --foreground-color: #fff;
+    --overlay-color: rgba(25, 145, 218, 0.93);
+    --footer-color: #333;
+    --blend-mode: normal;
+}
+
+.dark-theme {
+    --title-color: #fff;
+    --body-color: #afafaf;
+    --background-color: #181621;
+    --foreground-color: #211f2a;
+    --overlay-color: rgba(55, 51, 76, 0.93);
+    --footer-color: rgb(7, 6, 10);
+    --blend-mode: lighten;
+}
+
+.navbar-toggler {
+    color: var(--title-color);
+}
+
+.overlay {
+    background-color: var(--overlay-color);
+}
+
+h4 {
+    color: var(--title-color);
+}
+
+header h2 {
+    color: var(--title-color);
+}
+
+.navbar .navbar-brand .name_banner{
+    color: var(--title-color);
+}
+
+.navbar .navbar-nav li {
+    color: var(--title-color);
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--body-color);
+}
+
+.card, .modal-content {
+    background-color: var(--background-color);
+}
+
+.close {
+    color: var(--title-color);
+}
+
+h3 {
+    color: var(--title-color);
+}
+
+.navbar {
+    background-color: var(--background-color);
+}
+.toggle-btn {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;
+    border: 2px solid var(--body-color);
+    display: flex;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.toggle-btn i {
+    margin: auto;
+    font-size: 1rem;
+}
 /*
 *
 * ==========================================
@@ -79,7 +164,7 @@ li.timeline-item::before {
     color: #000;
 }
 .bg_footer {
-    background-color: #333;
+    background-color: var(--footer-color);
 }
 .stay_connected {
     font-size: 150%;
